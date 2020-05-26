@@ -1,0 +1,32 @@
+body{
+    background-color: brown;
+}
+.article{
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    right: 33rem;
+    top: 12rem;
+    width: 25rem;
+    height: 15rem;
+}
+.article__text{
+    align-self: center;
+    margin: 2rem;
+    font-family:'Carter One', cursive;
+}
+.article__button{
+    text-decoration: none;
+    font-family:'Carter One', cursive;
+    width: 9rem;
+    height: 25px;
+    margin: 1rem;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
